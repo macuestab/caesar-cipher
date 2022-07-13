@@ -47,7 +47,6 @@ if codeOrDecode == "encode" or codeOrDecode == "decode":
                 print(e)
         print("Encoding message.....")
         print(coder(message, offset))
-        exit()
     else:
         message = input("Type your message to be decoded: ").lower()
         print("Do you know the offset?")
